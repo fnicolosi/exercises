@@ -1,0 +1,54 @@
+public class FormaGeometrica implements TestInterface {
+	protected int lati;
+	protected String nome;
+
+	public double perimetro(double sizeL) {
+		return sizeL * this.lati;
+		
+	}
+
+	public void area (Integer l){
+		Integer area = Integer.valueOf(l.intValue()*l.intValue());
+			
+		return y;
+	
+		try{
+			y=null;
+		}catch(NullPointerException e){
+			
+		}catch(){
+			
+		}
+		finally{
+			
+		}
+	}
+		
+}
+
+class Quadrato extends FormaGeometrica {
+
+	public Quadrato() {
+		super();
+		this.lati = 4;
+		this.nome = "Quadrato";
+	}
+
+}
+
+class TriangoloEq extends FormaGeometrica {
+
+	public TriangoloEq() {
+		super();
+		this.lati = 3;
+		this.nome = "TriangoloEq";
+	}
+
+	public static void main(String[] Args) {
+		Quadrato uno = new Quadrato();
+		TriangoloEq due = new TriangoloEq();
+		System.out.println("Perimetro Quadrato = " + uno.perimetro(4));
+		System.out.println("Perimetro Triangolo = " + due.perimetro(4));
+
+	}
+}

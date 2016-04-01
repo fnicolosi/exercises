@@ -19,26 +19,25 @@ public class FormaGeometrica implements TestInterface {
 	public static void main(String[] Args) {
 		Quadrato uno = new Quadrato();
 		TriangoloEq due = new TriangoloEq();
-		Integer result = null;
+
 		try {
-			result = uno.area(null);
+			uno.area(null);
 		} catch (NullPointerException e) {
-			System.out.println(result);
+			e.printStackTrace();
 				
 		} catch (TooLargeException e) {
-			System.out.println(result);
+			e.printStackTrace();
 		}
 		try {
-			result = uno.area(Integer.valueOf(3));
-			
+			uno.area(Integer.valueOf(3));
 		} catch (TooLargeException e) {
-			System.out.println(result);		}
+			e.printStackTrace();
+		}
 		try {
-			result = uno.area(Integer.valueOf(1000));
-			
+			uno.area(Integer.valueOf(1000));
 		} catch (TooLargeException e) {
-			System.out.println(result);
-			}
+			e.printStackTrace();
+		}
 	}
 
 }

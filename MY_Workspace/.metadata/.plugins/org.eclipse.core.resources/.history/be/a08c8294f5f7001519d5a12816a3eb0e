@@ -29,13 +29,11 @@ public class FormaGeometrica implements TestInterface {
 			System.out.println(result);
 		}
 		try {
-			result = uno.area(Integer.valueOf(3));
-			
+			uno.area(Integer.valueOf(3));
 		} catch (TooLargeException e) {
 			System.out.println(result);		}
 		try {
-			result = uno.area(Integer.valueOf(1000));
-			
+			uno.area(Integer.valueOf(1000));
 		} catch (TooLargeException e) {
 			System.out.println(result);
 			}
