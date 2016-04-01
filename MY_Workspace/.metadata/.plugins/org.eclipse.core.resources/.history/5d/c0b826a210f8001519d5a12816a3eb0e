@@ -1,0 +1,8 @@
+
+public class CountReverse {
+	int number;
+	public static void main(String[] args) {
+
+	}
+
+}

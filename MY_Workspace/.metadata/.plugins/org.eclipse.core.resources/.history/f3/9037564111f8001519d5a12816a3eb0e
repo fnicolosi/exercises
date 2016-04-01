@@ -1,0 +1,25 @@
+
+public class Count {
+	int number;
+	
+	public Count() {
+	this.number = number;
+	}
+	
+	public int countReverse(int n){
+		if(number == n--){
+			
+			System.out.println("Numero");
+			number = n;
+		}
+		return n;
+		
+	}
+	public static void main(String[] args) {
+		Count k = new Count();
+			
+		System.out.println(k.countReverse(1));
+
+	}
+
+}

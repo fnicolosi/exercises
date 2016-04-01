@@ -1,0 +1,31 @@
+
+public class Count {
+	int number;
+	
+	public Count() {
+	this.number = 10;
+	}
+	
+	public int countReverse(int n) throws PalazzoException{
+		if(n == number--){
+			
+			System.out.println("Numero"+n);
+			number = n;
+		}else{throw new PalazzoException("numero sbagliato");
+		
+		}
+		
+		return n;
+		
+	}
+	public static void main(String[] args) {
+		Count k = new Count();
+		try {
+			k.countReverse(11);
+		} catch (PalazzoException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

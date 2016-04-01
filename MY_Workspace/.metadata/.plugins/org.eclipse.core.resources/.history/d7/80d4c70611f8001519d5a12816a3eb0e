@@ -1,0 +1,12 @@
+
+public class Count {
+	int number;
+	
+	public int CountReverse(int n){
+		
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

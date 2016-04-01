@@ -1,0 +1,27 @@
+public class Palazzo {
+	int piano;
+
+	public int AggiungiPiano(int p) throws PalazzoException {
+		piano = 0;
+		piano++;
+		if (p > piano ) {
+			throw new PalazzoException("Piano sbagliato");
+		}
+		return p;
+	}
+
+	public static void main(String[] args) {
+	Palazzo nuovo = new Palazzo();
+	try {
+		nuovo.AggiungiPiano(1);
+	} catch (PalazzoException e) {
+		e.printStackTrace();
+	}
+	try {
+		nuovo.AggiungiPiano(1);
+	} catch (PalazzoException e) {
+		e.printStackTrace();
+	}
+	}
+
+}
