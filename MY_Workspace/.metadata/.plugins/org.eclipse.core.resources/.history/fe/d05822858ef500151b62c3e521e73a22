@@ -1,0 +1,15 @@
+public class Test {
+
+	public static void main(String[] Args) {
+		int a = 0;
+		while (a < 20) {
+			a++;
+			// corpo del while
+			if (a % 2 == 0) {
+				System.out.println("pari");
+			} else {
+				System.out.println(a);
+			}
+		}
+	}
+}

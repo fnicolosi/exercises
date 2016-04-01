@@ -1,0 +1,15 @@
+public class Chess {
+	
+	public static void main(String[] args) {
+		 int a = 8;
+		 int b = 8;
+		Chess[][] chessArray = new Chess[a][b];
+
+		for (a = 0 ; a <8 ; a++)  
+			{
+			System.out.print("/t*");
+		//	System.out.print(/n);
+
+		
+	}
+}

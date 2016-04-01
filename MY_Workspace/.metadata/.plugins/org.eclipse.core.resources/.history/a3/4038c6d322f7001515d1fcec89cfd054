@@ -1,0 +1,31 @@
+public abstract class Vehicle {
+	int wheels;
+
+	public void run(String running) {
+	}
+
+}
+class Car extends Vehicle {
+	int wheels = 4;
+
+	public void run(int a) {
+		a = wheels;
+		System.out.println("velocità MAX: 300km/H" + a);
+	}
+
+}
+
+class Moto extends Vehicle {
+	int wheels = 2;
+
+	public void run(int b) {
+		b = wheels;
+		System.out.println("velocità MAX: 200km/H" + b);
+	}
+ 
+
+
+ public static void main(String[] args) {
+ 
+ }
+}

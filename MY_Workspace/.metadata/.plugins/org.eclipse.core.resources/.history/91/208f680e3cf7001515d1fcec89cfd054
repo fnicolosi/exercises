@@ -1,0 +1,12 @@
+public abstract class Libri {
+	protected String titolo;
+	protected int anno;
+	protected int costo;
+
+	public abstract boolean stessoCosto();
+
+	public static void main(String[] args) {
+
+	}
+
+}

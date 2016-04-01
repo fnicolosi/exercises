@@ -1,0 +1,11 @@
+public class Variabili {
+
+	public static void main(String[] args) {
+		char x = 21;
+		System.out.println(x);
+		x++;
+		System.out.println(x);
+
+	}
+
+}

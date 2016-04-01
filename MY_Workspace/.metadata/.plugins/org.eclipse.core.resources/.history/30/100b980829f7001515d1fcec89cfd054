@@ -1,0 +1,30 @@
+public abstract class Vehicle {
+	 protected int wheels;
+	 protected String running;
+
+	public abstract String run(); 
+	
+		
+}
+
+class Car extends Vehicle {
+		public Car(){
+			this.running = "velocità max 300km/h";
+			this.wheels = 4 ;
+		}
+	@Override
+	public String run() {
+		String result = this.running + this.wheels;
+		return result;
+	}
+
+	
+}
+
+class Moto extends Vehicle {
+
+	
+
+	public static void main(String[] args) {
+	}
+}

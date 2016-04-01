@@ -1,0 +1,48 @@
+public class NewChess {
+
+	public static void main(String[] args) {
+		String[][] chessArray = buildChessArray();
+
+		String[] firstline = chessArray[0];
+		cleanChessLine(chessArray[0], 0);
+
+	}
+
+	
+
+	private static void cleanChessLine(String[] line, int index) {
+		if (index < line.length) {
+			line[index] = "|0|";
+		}
+		
+		int nextStep = index + 1;
+		if (nextStep < line.length) {
+			cleanChessLine(line, nextStep);
+		}
+		
+		
+	}
+
+
+
+	private static String[][] buildChessArray() {
+		String[][] chessArray = new String[8][8];
+		for (int i = 0; i < 8; i++) {
+
+			String linea = "";
+			for (int j = 0; j < 8; j++) {
+
+				if ((i + j) % 2 == 0) {
+					chessArray[i][j] = "|1|";
+				} else {
+					chessArray[i][j] = "|0|";
+				}
+				linea += chessArray[i][j];
+
+			}
+			System.out.println(linea);
+
+		}
+		return chessArray;
+	}
+}

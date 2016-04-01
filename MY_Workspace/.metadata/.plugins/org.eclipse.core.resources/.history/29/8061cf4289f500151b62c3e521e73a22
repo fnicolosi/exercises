@@ -1,0 +1,10 @@
+public class Test {
+
+	public static void main(String[] Args) {
+		int a;
+		for (a=0; a<=20; a++)
+			;{
+		System.out.println(a++);
+	}
+	}
+}

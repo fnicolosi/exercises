@@ -1,0 +1,43 @@
+
+public abstract class FormaGeometrica {
+protected int lati;
+protected String nome;
+public abstract double perimetro();
+}
+class Quadrato extends FormaGeometrica{
+	public Quadrato() {
+		super();
+		this.lati = 4;
+		this.nome = "Quadrato";
+	}
+	@Override
+	public double perimetro() {
+		double result = this.lati * 4 ;
+		return result;
+		
+	}
+	
+	class TriangoloEq extends FormaGeometrica{
+		public TriangoloEq() {
+			super();
+			this.lati = 3;
+			this.nome = "TriangoloEq";
+		}
+		@Override
+		public double perimetro() {
+			double result = 4 * this.lati ;
+			return result;
+			
+		}
+		
+	}
+	public static void main (String []Args){
+		Quadrato uno = new Quadrato();
+		//TriangoloEq due = new TriangoloEq();
+		System.out.println("Quadrato= "+ uno.hashCode());
+	}
+}
+		
+	
+
+

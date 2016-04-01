@@ -1,0 +1,9 @@
+public class Prova extends LibriCat{
+	
+
+
+	public void main(String[] Args) {
+		LibriCat l1= new LibriCat();
+
+	}
+	}

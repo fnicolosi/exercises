@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ChessTwo {
+
+	public static void main(String[] args) {
+		List listA = new ArrayList(8);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public abstract class Libri {
+protected String titolo;
+protected
+	public static void main(String[] args) {
+
+	}
+
+}

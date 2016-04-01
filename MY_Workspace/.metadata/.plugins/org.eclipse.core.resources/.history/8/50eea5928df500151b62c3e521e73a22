@@ -1,0 +1,18 @@
+public class Test {
+
+	public static void main(String[] Args) {
+		int a =1;
+
+		while ( a < 21 ){ 
+		a++;
+		
+	
+			// corpo del for
+			if (a % 2 == 0) {
+				System.out.println("pari");
+			} else {
+				System.out.println(a);
+			}
+		}
+	}
+}

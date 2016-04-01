@@ -1,0 +1,22 @@
+public class Test {
+	int a = 0;
+
+	private void ContaPari() {
+		while (a < 20) {
+			a++;
+			// corpo del while
+			if (a % 2 == 0) {
+				System.out.println("pari");
+			} else {
+				System.out.println(a);
+			}
+		}
+	}
+
+	public static void main(String[] Args) {
+		Test b = new Test();
+		b.ContaPari();
+		System.out.println("a="+b);
+
+	}
+}

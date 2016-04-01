@@ -1,0 +1,22 @@
+public interface Documenti {
+	public boolean uguale(int X);
+}
+
+class Libro {
+	protected String soggetto;
+	protected int costo;
+
+	public Libro(String string, int i) {
+	}
+
+	public boolean uguale(String x) {
+		if (x == null || x== this.soggetto) return false;
+		{
+		if (x.equals(this.soggetto)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	}
+}

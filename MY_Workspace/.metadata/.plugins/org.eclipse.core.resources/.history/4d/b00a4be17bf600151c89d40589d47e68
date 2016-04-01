@@ -1,0 +1,29 @@
+public class NewChess {
+
+	public static void main(String[] args) {
+		int j = 0;
+		int i = 0;
+		String[][] chessArray = new String[8][8];
+		for ( i = 0; i < 8; i++) {
+
+			if (i % 2 == 0) {
+				chessArray[i][j] = "|1|";
+			} else {
+				chessArray[i][j] = "|0|";
+			}
+			String linea = "";
+			for ( j = 0; j < 8; j++) {
+
+				if (i % 2 == 0) {
+					chessArray[i][j] = "|1|";
+				} else {
+					chessArray[i][j] = "|0|";
+				}
+				linea +=chessArray[i][j];
+
+			}
+			System.out.println(linea);
+
+		}
+	}
+}

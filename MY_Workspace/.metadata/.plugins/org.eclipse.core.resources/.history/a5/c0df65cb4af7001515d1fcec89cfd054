@@ -1,0 +1,19 @@
+public interface Documenti {
+	public boolean uguale(int X);
+}
+
+class Libro {
+	protected String soggetto;
+	protected int costo;
+
+	public Libro(String string, int i) {
+	}
+
+	public boolean uguale(String x) {
+		if (this.soggetto==this.soggetto) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

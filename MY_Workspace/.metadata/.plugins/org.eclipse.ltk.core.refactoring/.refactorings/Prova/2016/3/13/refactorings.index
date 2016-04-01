@@ -1,0 +1,9 @@
+1459350298480	Extract method 'buildChessArray'
+1459350323233	Extract local variable 'chessArray'
+1459354696016	Extract local variable 'strings'
+1459354945737	Extract local variable 'nextStep'
+1459415746469	Delete element
+1459415750689	Delete element
+1459417189114	Move compilation unit
+1459423905119	Move compilation unit
+1459423919173	Move compilation unit

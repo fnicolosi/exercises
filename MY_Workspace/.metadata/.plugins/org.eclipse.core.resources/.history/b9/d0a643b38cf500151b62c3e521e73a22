@@ -1,0 +1,12 @@
+public class Test {
+
+	public static void main(String[] Args) {
+		int a;
+		for (a=0; a<20; a++) {
+			// corpo del for
+			System.out.println(a);
+		}
+			
+		System.out.println(a);
+	}
+}

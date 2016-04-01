@@ -1,0 +1,20 @@
+public class Test {
+	private static int contaPari(int i) {
+		if (i % 2 == 0) {
+			System.out.println("pari");
+		} else {
+			System.out.println(i);
+		}
+		return i;
+	}
+
+	public static void main(String[] Args) {
+		int a = 0;
+		while (a < 20) {
+			a++;
+			// corpo del while
+			a = contaPari(a);
+		}
+
+	}
+}
